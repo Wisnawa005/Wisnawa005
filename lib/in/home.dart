@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 import './beranda.dart' as beranda;
-import './listproduk.dart' as listproduk;
+import 'package:ags_wis/pages/listproduk.dart' as listproduk;
 
 // void main() {
 //   runApp(new MaterialApp(

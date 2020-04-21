@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './profile.dart';
+import './input.dart';
 
 class Beranda extends StatefulWidget {
   @override
@@ -81,10 +82,26 @@ class _BerandaState extends State<Beranda> {
               Divider(
                 height: 2,
               ),
+
+              //Input Data
+              new GestureDetector(
+                onTap: (){
+                  Navigator.of(context).push(new MaterialPageRoute(
+                    builder: (BuildContext context) => Input(
+                    )
+                    ));
+                },
+                child: new ListTile(
+                title: new Text('Input Data'),
+                trailing: new Icon(Icons.card_giftcard),
+              ), 
+              ),
+
               new ListTile(
                 title: new Text('Settings'),
                 trailing: new Icon(Icons.settings),
               ),
+
             ],
           ),
         ), 

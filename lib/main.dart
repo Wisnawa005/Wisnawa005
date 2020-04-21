@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:shimmer/shimmer.dart';
-import 'package:ags_wis/home.dart';
+import 'package:ags_wis/in/home.dart';
 
 void main() {
   runApp(new MaterialApp(
@@ -75,7 +75,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Container(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  "MyApps",
+                  "Wishop",
                   style: TextStyle(
                     fontSize: 70.0,
                     fontFamily: 'Pacifico',
